@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   color: #333333;
+   scroll-behavior: smooth;
+
+
+}
+
+.hover {
+  --b: 0.1em;   /* the thickness of the line */
+  --c: #1095c1; /* the color */
+  
+  color: #0000;
+  padding-block: var(--b);
+  background: 
+    linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+    linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+.hover:hover {
+  --_p: 100%;
+  --_s: .3s;
+}
+
+.bg-gray{
+   background-color: #F9FAFB;
+}
+#background-video {
+
+  width: 100vw;
+  height: 56vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.skill-tools{
+     filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+
+    -webkit-filter: grayscale(100%); 
+ }
+.skill-tools:hover{
+   transform: scale(1.2);
+  filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    zoom:1; /* needed to trigger "hasLayout" in IE if no width or height is set */
+    -webkit-filter: grayscale(0%); 
+    }
+#main-skills{
+   margin-top: 150px
+}
+
+@media (max-width: 700px) {
+   #aboutUs { margin-top: 50px; }
+ }
+  
+@media (max-width: 1400px) {
+    #bannerimg { display: none; }
+    #aboutUs { margin-top: 150px; }
+
+   }
+  
+  
+.card-about{
+   background: transparent;
+
+}
+.progress-95{
+   width: 95%;
+    background-color: #8993be;
+
+}
+.progress-75{
+   width: 75%;
+   background-color: #264de4;
+}
+.progress-88{
+   width: 88%;
+   background-color: #f0db4f;
+   
+}
+.progress-90{
+   width: 90%;
+   background-color: #e34c26;
+}
+.bgbodytwo{
+  /* background-image: url("../images/bgbodytwo.png");*/
+}
+.card-bg
+{
+    background-color: #e34c26;
+ /*  background-image: url("../images/projectbg.png");*/
+}
+.marquee-main{
+   width: 90%;
+   height: 90%;
+
+
+
+}
+
+.
