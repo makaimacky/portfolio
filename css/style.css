@@ -30,9 +30,10 @@
 .bg-gray{
    background-color: #F9FAFB;
 }
+
 #background-video {
 
-  width: 100vw;
+  width: 99vw;
   height: 56vh;
   object-fit: cover;
   position: absolute;
@@ -65,15 +66,15 @@
 }
 
 @media (max-width: 700px) {
-   #aboutUs { margin-top: 50px; }
+   #aboutUs { margin-top: 100px; }
  }
   
 @media (max-width: 1400px) {
     #bannerimg { display: none; }
     #aboutUs { margin-top: 150px; }
 
-   }
-  
+}
+#aboutUs { margin-top: 150px; }
   
 .card-about{
    background: transparent;
